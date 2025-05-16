@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelExplorer - Discover the World's Hidden Gems</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <i class="fas fa-compass"></i>
+        <span>TravelExplorer</span>
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-buttons">
+        <button class="btn btn-outline">Log in</button>
+        <button class="btn btn-primary">Sign up</button>
+      </div>
+      <button class="mobile-menu-btn" id="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobile-nav">
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Packages</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="mobile-buttons">
+        <button class="btn btn-outline">Log in</button>
+        <button class="btn btn-primary">Sign up</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Discover the world's hidden gems</h1>
+            <p>Plan your next adventure with our curated travel experiences. Explore breathtaking destinations and create memories that last a lifetime.</p>
+            <div class="hero-buttons">
+              <button class="btn btn-primary">
+                Explore destinations
+                <i class="fas fa-arrow-right"></i>
+              </button>
+              <button class="btn btn-outline">View packages</button>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="Image/logo.png" alt="Scenic travel destination">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Choose Us</h2>
+          <p>We provide exceptional travel experiences with attention to every detail, ensuring your journey is memorable.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-compass"></i>
+            </div>
+            <h3>Unique Destinations</h3>
+            <p>Discover hidden gems and off-the-beaten-path locations that most tourists never see.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h3>Personalized Itineraries</h3>
+            <p>Custom travel plans designed around your interests, preferences, and pace.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Expert Guides</h3>
+            <p>Local experts who know the culture, history, and secrets of each destination.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Travelers Say</h2>
+          <p>Don't just take our word for it. Here's what our satisfied customers have to say.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="quote">"The attention to detail was incredible. Every aspect of our trip was perfectly planned."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">S</div>
+              <div class="author-info">
+                <p class="author-name">Sarah Johnson</p>
+                <p class="author-location">Bali, Indonesia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="quote">"Our guide knew all the hidden spots that weren't in any guidebook. Truly unforgettable!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">M</div>
+              <div class="author-info">
+                <p class="author-name">Michael Chen</p>
+                <p class="author-location">Kyoto, Japan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="quote">"From start to finish, this was the most stress-free vacation I've ever experienced."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">E</div>
+              <div class="author-info">
+                <p class="author-name">Emma Rodriguez</p>
+                <p class="author-location">Amalfi Coast, Italy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+      <div class="container">
+        <h2>Ready to start your adventure?</h2>
+        <p>Join thousands of satisfied travelers who have experienced the world with us. Your journey begins here.</p>
+        <div class="cta-buttons">
+          <button class="btn btn-secondary">Browse destinations</button>
+          <button class="btn btn-white">Contact an advisor</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo">
+            <i class="fas fa-compass"></i>
+            <span>TravelExplorer</span>
+          </div>
+          <p>Curating exceptional travel experiences since 2010.</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Chat</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Licenses</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 TravelExplorer. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
